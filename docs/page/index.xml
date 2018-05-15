@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Designing Writing</title>
+    <link>http://michaelhealy.space/designing-writing/page/</link>
+    <description>Recent content in Pages on Designing Writing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 May 2018 22:56:51 -0400</lastBuildDate>
+    
+	<atom:link href="http://michaelhealy.space/designing-writing/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Submission Guide</title>
+      <link>http://michaelhealy.space/designing-writing/page/submission-guide/</link>
+      <pubDate>Mon, 14 May 2018 22:56:51 -0400</pubDate>
+      
+      <guid>http://michaelhealy.space/designing-writing/page/submission-guide/</guid>
+      <description>Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text. You can do this out of Word by doing a save as, plain text. This will help to strip any formatting.
+First, providing some metadata will be useful. At the top of each of your pages I am going to ask that you enter some metadata in the TOML format, which looks like this:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Guide</title>
+      <link>http://michaelhealy.space/designing-writing/page/markdown-cheat-sheet/</link>
+      <pubDate>Mon, 14 May 2018 22:56:38 -0400</pubDate>
+      
+      <guid>http://michaelhealy.space/designing-writing/page/markdown-cheat-sheet/</guid>
+      <description>Here is a complete guide to markdown, taken from the GoHugo page.</description>
+    </item>
+    
+  </channel>
+</rss>

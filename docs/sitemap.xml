@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://michaelhealy.space/designing-writing/author/</loc>
-    <priority>0</priority>
+    <loc>http://michaelhealy.space/designing-writing/page/submission-guide/</loc>
+    <lastmod>2018-05-14T22:56:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://michaelhealy.space/designing-writing/page/markdown-cheat-sheet/</loc>
+    <lastmod>2018-05-14T22:56:38-04:00</lastmod>
   </url>
   
   <url>
@@ -14,6 +19,13 @@
   
   <url>
     <loc>http://michaelhealy.space/designing-writing/</loc>
+    <lastmod>2018-05-14T22:56:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://michaelhealy.space/designing-writing/page/</loc>
+    <lastmod>2018-05-14T22:56:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
