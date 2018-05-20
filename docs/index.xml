@@ -17,8 +17,7 @@
       <pubDate>Mon, 14 May 2018 22:56:51 -0400</pubDate>
       
       <guid>http://michaelhealy.space/designing-writing/page/submission-guide/</guid>
-      <description>Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text. You can do this out of Word by doing a save as, plain text. This will help to strip any formatting.
-First, providing some metadata will be useful. At the top of each of your pages I am going to ask that you enter some metadata in the TOML format, which looks like this:</description>
+      <description>Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text, as this will strip random formatting from the document. You can do this out of Word by doing a save as, plain text, or out of Google Docs as a Download As Plain Text. I will help with some of that workflow as we go through.</description>
     </item>
     
     <item>
@@ -27,7 +26,7 @@ First, providing some metadata will be useful. At the top of each of your pages 
       <pubDate>Mon, 14 May 2018 22:56:38 -0400</pubDate>
       
       <guid>http://michaelhealy.space/designing-writing/page/markdown-cheat-sheet/</guid>
-      <description>Here is a complete guide to markdown, taken from the GoHugo page.</description>
+      <description>Here is a guide to markdown, taken from the GoHugo docs</description>
     </item>
     
   </channel>

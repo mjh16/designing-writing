@@ -113,23 +113,98 @@
       
       
       <br/>
-      <i class="fas fa-clock"></i> 1 min read 
+      <i class="fas fa-clock"></i> 3 min read 
       </span>  
   </div>    
   
-  <p>Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text. You can do this out of Word by doing a save as, plain text. This will help to strip any formatting.</p>
+  
+
+<p>Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text, as this will strip random formatting from the document. You can do this out of Word by doing a save as, plain text, or out of Google Docs as a Download As Plain Text. I will help with some of that workflow as we go through.</p>
+
+<hr />
+
+<h2 id="files">Files</h2>
+
+<p>In general, there will be a number of files associated with each unique piece of the webtext that we create. There will be the text itself, as Markdown.md files; videos as YouTube links or MP4s (we can discuss what these will be); audiofiles as MP3, AAC, or FLAC; and images as PNG or JPG. There may be some other material types which we can associate with the text as well. Having everything organized and categorized will let me drop it right into the framework so we can get to revising, collaborating, and generally thinking about the delivery of the text. Do pay attention to file names, organizing them in a way that makes sense to the structure of your piece, and that can be easily read and figured out in context. Additionally, it will be useful to have them be styled without spaces or special characters. For example: michael-healy-unr-profile.md, unr-writing-center1.png, creighton-demographics.png, etc. This will allow them to drop into the HTML file structure, and help me figure out what goes where if something breaks.</p>
+
+<h3 id="structure">Structure</h3>
+
+<p>It will greatly help in having me get the pieces and profiles into the webtext if folders are structured in a particular way when they are submitted to me. (ask Michael Neal if it will be helpful to have say, a OneDrive of Google Drive submission box here).</p>
+
+<p>Ideally, it will look something like this:</p>
+
+<p><strong>Your Name Folder</strong></p>
+
+<ul>
+<li>page-title.md</li>
+<li>second-page.md</li>
+<li>Media Folder
+
+<ul>
+<li>Images</li>
+<li>Videos</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="formatting-text-files">Formatting Text Files</h2>
+
+<p>To help turn our awesome multi-modal texts into a format that will be friendly and useful for all of us to build the webtext (and so we don&rsquo;t have to do a bunch of HTML), we will be using <a href="https://gohugo.io">GoHugo</a> to help us rapidly prototype and build the webtext. Hugo takes Markdown files and turns them into rich HTML using a theme. Ther are tools you can use to help write markdown, or there are some general guidelines, along with a specific page that I&rsquo;ve put together as a cheat sheet for potential commmon usage types for our work.</p>
+
+<h3 id="toml">TOML</h3>
 
 <p>First, providing some metadata will be useful. At the top of each of your pages I am going to ask that you enter some metadata in the TOML format, which looks like this:</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-TOML" data-lang="TOML"><span style="color:#960050;background-color:#1e0010">+++</span>
-<span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;title of your page&#34;</span>
-<span style="color:#a6e22e">date</span> = <span style="color:#e6db74">2018-05-14T22:56:41-04:00</span>
-<span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;Your Name&#34;</span>
-<span style="color:#a6e22e">tags</span> = [<span style="color:#e6db74">&#34;any&#34;</span>,<span style="color:#e6db74">&#34;relevant&#34;</span>,<span style="color:#e6db74">&#34;tags&#34;</span>]
-<span style="color:#a6e22e">category</span> = [<span style="color:#e6db74">&#34;category-1&#34;</span>,<span style="color:#e6db74">&#34;category-2&#34;</span>]
-<span style="color:#960050;background-color:#1e0010">+++</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">+++
+title = &#34;title of your page&#34;
+date = 2018-05-14T22:56:41-04:00
+author = &#34;Your Name&#34;
+tags = [&#34;any&#34;,&#34;relevant&#34;,&#34;tags&#34;]
+category = [&#34;category-1&#34;,&#34;category-2&#34;]
++++</code></pre></div>
 
-<span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#960050;background-color:#1e0010">&lt;</span> <span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">highlight</span> <span style="color:#960050;background-color:#1e0010">&gt;}}</span></code></pre></div>
+<p>This metadata will be used in organizing within the framework itself for things like relating content, giving names, dates, search engine info, and other metadata functions. The text files themselves will then be coded using <a href="page/markdown-cheat-sheet/">markdown</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p><strong>File-Names</strong></p>
+
+<ul>
+<li>No Spaces, descriptive</li>
+</ul>
+
+<p><strong>File-Types</strong></p>
+
+<ul>
+<li>markdown.md</li>
+<li>jpg, png, mp4, mp3, flac, AAC</li>
+</ul>
+
+<p><strong>File-Conventions</strong></p>
+
+<ul>
+<li>TOML metadata</li>
+<li>Markdown formatting</li>
+<li>.md extension</li>
+<li>Saved as plain text (No Word Files)</li>
+</ul>
+
+<p><strong>Structure</strong></p>
+
+<p><em>folder-with-your-name</em></p>
+
+<ul>
+<li>page-1.md</li>
+<li>page-2.md</li>
+<li>page-3.md</li>
+<li>Media Folder
+
+<ul>
+<li>media-files-with-descriptive-names.JPG</li>
+<li>and-no-spaces.AAC</li>
+</ul></li>
+</ul>
 
 </div>
             <div class="footer">
