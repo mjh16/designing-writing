@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://michaelhealy.space/designing-writing/post/getting-started-with-hugo/</loc>
+    <lastmod>2018-05-21T17:41:29-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://michaelhealy.space/designing-writing/page/submission-guide/</loc>
     <lastmod>2018-05-14T22:56:51-04:00</lastmod>
   </url>
@@ -19,13 +24,19 @@
   
   <url>
     <loc>http://michaelhealy.space/designing-writing/</loc>
-    <lastmod>2018-05-14T22:56:51-04:00</lastmod>
+    <lastmod>2018-05-21T17:41:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelhealy.space/designing-writing/page/</loc>
     <lastmod>2018-05-14T22:56:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://michaelhealy.space/designing-writing/post/</loc>
+    <lastmod>2018-05-21T17:41:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   

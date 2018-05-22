@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Designing Writing</title>
+    <link>http://michaelhealy.space/designing-writing/post/</link>
+    <description>Recent content in Posts on Designing Writing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 May 2018 17:41:29 -0400</lastBuildDate>
+    
+	<atom:link href="http://michaelhealy.space/designing-writing/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started With Hugo</title>
+      <link>http://michaelhealy.space/designing-writing/post/getting-started-with-hugo/</link>
+      <pubDate>Mon, 21 May 2018 17:41:29 -0400</pubDate>
+      
+      <guid>http://michaelhealy.space/designing-writing/post/getting-started-with-hugo/</guid>
+      <description>If you&amp;rsquo;d like to install Hugo and work with it on your own, and contribute to the webtext in that way, here are the links to the different tools and repositories that I am using:
+ Hugo GitHub Repository Atom GitHub Desktop  I will gladly work with anyone on working through how to use the tools.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     
     
-    <meta name="generator" content="Hugo 0.40.2" />
+    <meta name="generator" content="Hugo 0.40.3" />
     
     <title>Markdown Guide &middot; Designing Writing</title>
     <meta content="Markdown Guide - Designing Writing" property="og:title">
@@ -30,8 +30,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://michaelhealy.space/designing-writing/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="http://michaelhealy.space/designing-writing/favicon.png">
     
 
 	</head>
@@ -40,7 +40,7 @@
 	<div class="container text-center sidebar-sticky">
 		<div class="sidebar-about text-center">
 			<a href="http://michaelhealy.space/designing-writing/"><h1 class="brand">Designing Writing</h1></a>
-			 <img src="/img/hugo.png" alt="Author Image" class="img-circle headshot center"> 
+			 <img src="http://michaelhealy.space/designing-writing/img/hugo.png" alt="Author Image" class="img-circle headshot center"> 
 			<p class="lead">
 				 Your site's description 
 			</p>
@@ -51,10 +51,10 @@
 		
 		
 				<li>
-					<a href="/designing-writing/posts/"> <span>Posts</span></a>
+					<a href="http://michaelhealy.space/designing-writing/posts/"> <span>Posts</span></a>
 				</li>
 				<li>
-					<a href="/designing-writing/about/"> <span>About</span></a>
+					<a href="http://michaelhealy.space/designing-writing/about/"> <span>About</span></a>
 				</li>
 		</li>
 	</ul>
@@ -113,11 +113,209 @@
       
       
       <br/>
-      <i class="fas fa-clock"></i> 1 min read 
+      <i class="fas fa-clock"></i> 3 min read 
       </span>  
   </div>    
   
-  <p>Here is a  guide to markdown, taken from the <a href="https://gohugo.io/documentation/">GoHugo</a> docs</p>
+  
+
+<p>Here is a  guide to markdown, taken from the <a href="https://gohugo.io/documentation/">GoHugo</a> docs. As mentioned in the submission guide, you can also use a number of online markdown editors such as <a href="https://stackedit.io">stackedit.io</a>, <a href="https://dillinger.io">Dillinger</a>. I use a program called <a href="https://atom.io/">Atom</a>, which is very much a programming text editor.</p>
+
+<p>This cheat sheet is set up for common usage scenarios for our text. I will provide links for futher information. As always, I am always availble to help, just send an email.</p>
+
+<p>A few things to keep in mind with markdown. First, it is a markup language, which means that it adds code to existing plain text in order to render other effects. This means that any formatting that you want to do with the text you will have to add the appropriate markdown text. This page is also meant to be a quick guide</p>
+
+<p>For a more indepth guide go to: <a href="https://learn.netlify.com/en/cont/markdown/">https://learn.netlify.com/en/cont/markdown/</a> or <a href="https://gohugo.io/content-management/formats/#learn-markdown">https://gohugo.io/content-management/formats/#learn-markdown</a></p>
+
+<hr />
+
+<h1 id="table-of-contents">Table Of Contents</h1>
+
+<ul>
+<li><a href="#text-formatting">Text Formatting</a></li>
+<li><a href="#adding-links">Adding Links</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#embedding-images">Images</a></li>
+<li><a href="#embedding-other-media">Other Media</a></li>
+<li><a href="#other">Tables, Lists, and Other Formatting</a></li>
+</ul>
+
+<hr />
+
+<h2 id="text-formatting">Text Formatting</h2>
+
+<table>
+<thead>
+<tr>
+<th>Formatting</th>
+<th>Markdown</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>Italics</em></td>
+<td>single * around the text</td>
+</tr>
+
+<tr>
+<td><strong>Bold</strong></td>
+<td>double ** around the text</td>
+</tr>
+
+<tr>
+<td>Horizontal line</td>
+<td>three consecutive dashes &mdash; , astericks *** , or underscores ___</td>
+</tr>
+
+<tr>
+<td>Blockquote</td>
+<td>put a &gt; before the text to quote</td>
+</tr>
+</tbody>
+</table>
+
+<p>Headings</p>
+
+<pre><code class="language-md">1-6 # Heading Text
+</code></pre>
+
+<h1 id="heading-1">Heading 1</h1>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<h3 id="heading-3">Heading 3</h3>
+
+<h4 id="heading-4">Heading 4</h4>
+
+<h5 id="heading-5">Heading 5</h5>
+
+<h6 id="heading-6">Heading 6</h6>
+
+<h2 id="adding-links">Adding Links</h2>
+
+<p>To add a link you can just include the link, for example <a href="http://kairos.technorhetoric.net">http://kairos.technorhetoric.net</a>.</p>
+
+<p>If you&rsquo;d like to include a link <a href="http://michaelhealy.space">in text</a>, then you&rsquo;ll do it like this:</p>
+
+<pre><code>[link text](link to content)
+</code></pre>
+
+<h2 id="media">Media</h2>
+
+<h3 id="embedding-images">Embedding Images</h3>
+
+<p>There are two ways to embed images and other figures. Keep in mind the file structure (it will help me not mix things up) as you go.</p>
+
+<p>The first is to format the image the same as any other link starting with an exclamation point: <code>![text](link-to-image)</code></p>
+
+<p>The second way is using Hugo&rsquo;s figure shortcode, which will give you some additional formatting options. You can find more information about <a href="https://gohugo.io/content-management/shortcodes/">shortcodes here.</a> There are a number of options for the figure shortcode, and it can be useful if you need to caption or resize an image.</p>
+
+<h3 id="embedding-other-media">Embedding Other Media</h3>
+
+<p>You are also able to embed other media using the HTML embed code generated from the page. Hugo also has a number of shortcodes available for <a href="https://gohugo.io/content-management/shortcodes/#youtube">YouTube</a>, <a href="https://gohugo.io/content-management/shortcodes/#vimeo">Vimeo</a>, <a href="https://gohugo.io/content-management/shortcodes/#tweet">Twitter</a>, and <a href="https://gohugo.io/content-management/shortcodes/#instagram">Instagram</a>. You can also use the HTML iFrames generated from other sites directly in the text.</p>
+
+<h2 id="other">Tables, lists, and other options</h2>
+
+<h3 id="lists">Lists</h3>
+
+<p>You can make unordered lists in following way:</p>
+
+<pre><code class="language-markdown">* Item
+- Item
++ Item
+</code></pre>
+
+<ul>
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ul>
+
+<p>And if you&rsquo;d like to nest the lists, add tabs before the items, like:</p>
+
+<pre><code class="language-Markdown">* Item 1
+  - Nested Item 1
+  * Nested Item 2
+  + Nested Item 3
+* Item 2
+</code></pre>
+
+<ul>
+<li>Item 1
+
+<ul>
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+<li>Nested Item 3</li>
+</ul></li>
+<li>Item 2</li>
+</ul>
+
+<p>And ordered lists work like this:</p>
+
+<pre><code class="language-md">1. Item 1
+2. Item 2
+3. Item 3
+</code></pre>
+
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+
+<h3 id="tables">Tables</h3>
+
+<p>To make a table:</p>
+
+<pre><code class="language-md">Name | Things | Value
+---|---|---
+One | Two | Three
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Things</th>
+<th>Value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>One</td>
+<td>Two</td>
+<td>Three</td>
+</tr>
+</tbody>
+</table>
+
+<p>And you can align the tables using colons like so:</p>
+
+<pre><code class="language-md">Left | Center | Right
+:---|:---:|---:
+One | Two | Three
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="left">Left</th>
+<th align="center">Center</th>
+<th align="right">Right</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">One</td>
+<td align="center">Two</td>
+<td align="right">Three</td>
+</tr>
+</tbody>
+</table>
 
 </div>
             <div class="footer">

@@ -6,6 +6,8 @@ draft = false
 
 Hey all, to help streamline the process of submitting materials for me to upload, here are a few guideline that will be helpful. First, please format your pieces as Plain Text, as this will strip random formatting from the document. You can do this out of Word by doing a save as, plain text, or out of Google Docs as a Download As Plain Text. I will help with some of that workflow as we go through.
 
+**[TL;DR]({{< relref "#tldr" >}})**
+
 ---
 
 ## Files
@@ -45,9 +47,11 @@ category = ["category-1","category-2"]
 +++
 {{< /highlight >}}
 
-This metadata will be used in organizing within the framework itself for things like relating content, giving names, dates, search engine info, and other metadata functions. The text files themselves will then be coded using [markdown](page/markdown-cheat-sheet/)
+This metadata will be used in organizing within the framework itself for things like relating content, giving names, dates, search engine info, and other metadata functions. The text files themselves will then be coded using [markdown](/page/markdown-cheat-sheet/), and please see the page for a useful guide for composing in Markdown. You can also use a number of free web-based Markdown editors such as [stackedit.io](https://stackedit.io), [Dillinger](https://dillinger.io), and others. These all have options to sync up with Google Drive, GitHub, and OneDrive, providing ways to write and preview in an app, and then export the markdown files. Additionally, they provide WYSIWYG toolbars to assist with editing and attaching media.
 
-## TL;DR
+---
+
+## TL;DR {#tldr}
 
 **File-Names**
 
@@ -61,7 +65,7 @@ This metadata will be used in organizing within the framework itself for things 
 **File-Conventions**
 
 - TOML metadata
-- Markdown formatting
+- [Markdown formatting](/page/markdown-cheat-sheet/)
 - .md extension
 - Saved as plain text (No Word Files)
 
@@ -69,9 +73,12 @@ This metadata will be used in organizing within the framework itself for things 
 
 *folder-with-your-name*
 
-  - page-1.md
-  - page-2.md
-  - page-3.md
-  - Media Folder
+ - page-1.md
+ - page-2.md
+ - page-3.md
+ - Media Folder
     - media-files-with-descriptive-names.JPG
     - and-no-spaces.AAC
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNTE3ODIwNTJdfQ==
+-->
