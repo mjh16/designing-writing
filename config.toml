@@ -1,4 +1,4 @@
-baseURL = "http://michaelhealy.space/designing-writing/"
+baseURL = "https://michaelhealy.space/designing-writing/"
 languageCode = "en-us"
 title = "Designing Writing"
 publishDir = "docs"
